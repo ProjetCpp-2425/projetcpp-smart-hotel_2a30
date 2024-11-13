@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>EditEmployee</class>
+ <widget class="QDialog" name="EditEmployee">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>780</width>
+    <height>219</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>781</width>
+     <height>221</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QGroupBox {
+    background-color: #021024;
+    border: 1px solid #26425A;
+    border-radius: 8px;
+    margin-top: 15px;
+    padding: 10px;
+}
+
+QGroupBox::title {
+    color: #86ABCF;  /* Carolina blue for group box titles */
+    font-weight: bold;
+    padding-left: 10px;
+    subcontrol-origin: margin;
+}
+</string>
+   </property>
+   <property name="title">
+    <string>EDIT An Employee</string>
+   </property>
+   <widget class="QLineEdit" name="fullnameLineEdit">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>141</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">/* Text Inputs */
+QLineEdit, QComboBox {
+    background-color: #021024;  /* Rich black background */
+    color: #E1CBD7;             /* Thistle text */
+    border: 1px solid #26425A;  /* Indigo dye border */
+    border-radius: 4px;
+    padding: 8px;
+}
+
+QLineEdit:focus, QComboBox:focus {
+    border-color: #86ABCF;      /* Carolina blue on focus */
+    outline: none;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string>Full Name</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="emailLineEdit">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>30</y>
+      <width>281</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">/* Text Inputs */
+QLineEdit, QComboBox {
+    background-color: #021024;  /* Rich black background */
+    color: #E1CBD7;             /* Thistle text */
+    border: 1px solid #26425A;  /* Indigo dye border */
+    border-radius: 4px;
+    padding: 8px;
+}
+
+QLineEdit:focus, QComboBox:focus {
+    border-color: #86ABCF;      /* Carolina blue on focus */
+    outline: none;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string>Email Address</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="phoneLineEdit">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>90</y>
+      <width>141</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">/* Text Inputs */
+QLineEdit, QComboBox {
+    background-color: #021024;  /* Rich black background */
+    color: #E1CBD7;             /* Thistle text */
+    border: 1px solid #26425A;  /* Indigo dye border */
+    border-radius: 4px;
+    padding: 8px;
+}
+
+QLineEdit:focus, QComboBox:focus {
+    border-color: #86ABCF;      /* Carolina blue on focus */
+    outline: none;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string>Phone Number</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="cinLineEdit">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>90</y>
+      <width>141</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">/* Text Inputs */
+QLineEdit, QComboBox {
+    background-color: #021024;  /* Rich black background */
+    color: #E1CBD7;             /* Thistle text */
+    border: 1px solid #26425A;  /* Indigo dye border */
+    border-radius: 4px;
+    padding: 8px;
+}
+
+QLineEdit:focus, QComboBox:focus {
+    border-color: #86ABCF;      /* Carolina blue on focus */
+    outline: none;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string>CIN</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="salaryLineEdit">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>30</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">/* Text Inputs */
+QLineEdit, QComboBox {
+    background-color: #021024;  /* Rich black background */
+    color: #E1CBD7;             /* Thistle text */
+    border: 1px solid #26425A;  /* Indigo dye border */
+    border-radius: 4px;
+    padding: 8px;
+}
+
+QLineEdit:focus, QComboBox:focus {
+    border-color: #86ABCF;      /* Carolina blue on focus */
+    outline: none;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string>Salary</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="positionLineEdit">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>30</y>
+      <width>113</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">/* Text Inputs */
+QLineEdit, QComboBox {
+    background-color: #021024;  /* Rich black background */
+    color: #E1CBD7;             /* Thistle text */
+    border: 1px solid #26425A;  /* Indigo dye border */
+    border-radius: 4px;
+    padding: 8px;
+}
+
+QLineEdit:focus, QComboBox:focus {
+    border-color: #86ABCF;      /* Carolina blue on focus */
+    outline: none;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string>Position</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="idstaffLineEdit">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>90</y>
+      <width>281</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">/* Text Inputs */
+QLineEdit, QComboBox {
+    background-color: #021024;  /* Rich black background */
+    color: #E1CBD7;             /* Thistle text */
+    border: 1px solid #26425A;  /* Indigo dye border */
+    border-radius: 4px;
+    padding: 8px;
+}
+
+QLineEdit:focus, QComboBox:focus {
+    border-color: #86ABCF;      /* Carolina blue on focus */
+    outline: none;
+}</string>
+    </property>
+    <property name="placeholderText">
+     <string>ID</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="okbutton">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>160</y>
+      <width>131</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: #0C1D49;  /* Oxford blue background for buttons */
+    color: #E1CBD7;             /* Thistle text for contrast */
+    padding: 10px 20px;
+    border-radius: 6px;
+    border: 1px solid #26425A;  /* Indigo dye for border */
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    background-color: #26425A;  /* Indigo dye background on hover */
+}
+
+QPushButton:pressed {
+    background-color: #86ABCF;  /* Carolina blue on press */
+    border-color: #C38EB4;      /* Lilac border on press */
+}</string>
+    </property>
+    <property name="text">
+     <string>OK</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="cancelbutton">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>160</y>
+      <width>131</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: #0C1D49;  /* Oxford blue background for buttons */
+    color: #E1CBD7;             /* Thistle text for contrast */
+    padding: 10px 20px;
+    border-radius: 6px;
+    border: 1px solid #26425A;  /* Indigo dye for border */
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    background-color: #26425A;  /* Indigo dye background on hover */
+}
+
+QPushButton:pressed {
+    background-color: #86ABCF;  /* Carolina blue on press */
+    border-color: #C38EB4;      /* Lilac border on press */
+}</string>
+    </property>
+    <property name="text">
+     <string>CANCEL</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

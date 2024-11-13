@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>searchemployee</class>
+ <widget class="QDialog" name="searchemployee">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>813</width>
+    <height>471</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QStackedWidget {
+    background-color: #E1CBD7;  /* Thistle as the background color */
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+/* QWidget within QStackedWidget */
+QStackedWidget &gt; QWidget {
+    background-color: #E1CBD7;  /* Same thistle background for child widgets */
+    border: 1px solid #26425A;  /* Indigo dye border around inner widgets */
+    border-radius: 8px;
+    padding: 15px;
+}</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox_5">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>0</y>
+     <width>221</width>
+     <height>171</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QGroupBox {
+    background-color: #021024;
+    border: 1px solid #26425A;
+    border-radius: 8px;
+    margin-top: 15px;
+    padding: 10px;
+}
+
+QGroupBox::title {
+    color: #86ABCF;  /* Carolina blue for group box titles */
+    font-weight: bold;
+    padding-left: 10px;
+    subcontrol-origin: margin;
+}
+</string>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <widget class="QRadioButton" name="id1button">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>60</y>
+      <width>71</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>ID</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="fullnamebutton">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>90</y>
+      <width>101</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Full Name</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="position1button">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>120</y>
+      <width>101</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Position</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QLineEdit" name="searchLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>411</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">/* Text Inputs */
+QLineEdit, QComboBox {
+    background-color: #021024;  /* Rich black background */
+    color: #E1CBD7;             /* Thistle text */
+    border: 1px solid #26425A;  /* Indigo dye border */
+    border-radius: 4px;
+    padding: 8px;
+}
+
+QLineEdit:focus, QComboBox:focus {
+    border-color: #86ABCF;      /* Carolina blue on focus */
+    outline: none;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string>Search...</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="confirmButton">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>120</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: #0C1D49;  /* Oxford blue background for buttons */
+    color: #E1CBD7;             /* Thistle text for contrast */
+    padding: 10px 20px;
+    border-radius: 6px;
+    border: 1px solid #26425A;  /* Indigo dye for border */
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    background-color: #26425A;  /* Indigo dye background on hover */
+}
+
+QPushButton:pressed {
+    background-color: #86ABCF;  /* Carolina blue on press */
+    border-color: #C38EB4;      /* Lilac border on press */
+}</string>
+   </property>
+   <property name="text">
+    <string>Confirm</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cancel0button">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>120</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: #0C1D49;  /* Oxford blue background for buttons */
+    color: #E1CBD7;             /* Thistle text for contrast */
+    padding: 10px 20px;
+    border-radius: 6px;
+    border: 1px solid #26425A;  /* Indigo dye for border */
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    background-color: #26425A;  /* Indigo dye background on hover */
+}
+
+QPushButton:pressed {
+    background-color: #86ABCF;  /* Carolina blue on press */
+    border-color: #C38EB4;      /* Lilac border on press */
+}</string>
+   </property>
+   <property name="text">
+    <string>Cancel</string>
+   </property>
+  </widget>
+  <widget class="QTableView" name="searchTableView">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>180</y>
+     <width>751</width>
+     <height>271</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QTableView {
+    background-color: #021024;
+    border: 1px solid #26425A;
+    border-radius: 8px;
+    padding: 10px;
+    gridline-color: #26425A;
+    color: #86ABCF;
+    selection-background-color: #26425A;  /* Selected row background */
+    selection-color: #FFFFFF;             /* Selected text color */
+}
+
+QTableView::item {
+    padding: 5px;
+    border: none;
+    transition: all 0.2s ease-in-out;    /* Adds smooth transition */
+}
+
+QTableView::item:selected {
+    background-color: #26425A;            /* Slightly different shade for selected */
+    color: #FFFFFF;                       /* Change text color on select */
+}
+QTableView:hover {
+    border: 1px solid #FFFFFF;            /* White border on hover */
+}
+QTableView::item:focus {
+    background-color: #3A5069;            /* Focused row color */
+    color: #FFFFFF;
+}
+
+QTableView::item:hover {
+    border: 1px solid #FFFFFF;            /* White border on hover */
+    border-radius: 4px;                   /* Rounded corners on hover */
+}
+
+QHeaderView::section {
+    background-color: #021024;
+    color: #86ABCF;
+    border: 1px solid #26425A;
+    padding: 5px;
+    font-weight: bold;
+}
+</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

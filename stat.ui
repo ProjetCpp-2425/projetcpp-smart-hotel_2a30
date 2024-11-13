@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>stat</class>
+ <widget class="QDialog" name="stat">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>783</width>
+    <height>330</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QTableView" name="statisticsTable">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>30</y>
+     <width>751</width>
+     <height>271</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QTableView {
+    background-color: #021024;
+    border: 1px solid #26425A;
+    border-radius: 8px;
+    padding: 10px;
+    gridline-color: #26425A;
+    color: #86ABCF;
+    selection-background-color: #26425A;  /* Selected row background */
+    selection-color: #FFFFFF;             /* Selected text color */
+}
+
+QTableView::item {
+    padding: 5px;
+    border: none;
+    transition: all 0.2s ease-in-out;    /* Adds smooth transition */
+}
+
+QTableView::item:selected {
+    background-color: #26425A;            /* Slightly different shade for selected */
+    color: #FFFFFF;                       /* Change text color on select */
+}
+QTableView:hover {
+    border: 1px solid #FFFFFF;            /* White border on hover */
+}
+QTableView::item:focus {
+    background-color: #3A5069;            /* Focused row color */
+    color: #FFFFFF;
+}
+
+QTableView::item:hover {
+    border: 1px solid #FFFFFF;            /* White border on hover */
+    border-radius: 4px;                   /* Rounded corners on hover */
+}
+
+QHeaderView::section {
+    background-color: #021024;
+    color: #86ABCF;
+    border: 1px solid #26425A;
+    padding: 5px;
+    font-weight: bold;
+}
+</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cancelButton">
+   <property name="geometry">
+    <rect>
+     <x>620</x>
+     <y>240</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: #0C1D49;  /* Oxford blue background for buttons */
+    color: #E1CBD7;             /* Thistle text for contrast */
+    padding: 10px 20px;
+    border-radius: 6px;
+    border: 1px solid #26425A;  /* Indigo dye for border */
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    background-color: #26425A;  /* Indigo dye background on hover */
+}
+
+QPushButton:pressed {
+    background-color: #86ABCF;  /* Carolina blue on press */
+    border-color: #C38EB4;      /* Lilac border on press */
+}</string>
+   </property>
+   <property name="text">
+    <string>Cancel</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
