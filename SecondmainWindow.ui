@@ -1,0 +1,803 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SecondmainWindow</class>
+ <widget class="QMainWindow" name="SecondmainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1481</width>
+    <height>750</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="widget_2" native="true">
+    <property name="geometry">
+     <rect>
+      <x>-160</x>
+      <y>0</y>
+      <width>1671</width>
+      <height>911</height>
+     </rect>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="acceptDrops">
+     <bool>false</bool>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> #widget_2 {background-color: rgb(234, 234, 234);}
+
+#widget_2 QPushButton{
+	
+	
+	background-color: rgb(194, 217, 255);
+}</string>
+    </property>
+    <property name="inputMethodHints">
+     <set>Qt::ImhNone</set>
+    </property>
+    <widget class="QWidget" name="widget_7" native="true">
+     <property name="geometry">
+      <rect>
+       <x>790</x>
+       <y>10</y>
+       <width>451</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);</string>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QFrame" name="search">
+        <property name="styleSheet">
+         <string notr="true">#search{
+	border:1px solid rgb(234, 234, 234);
+	border-radius:17px;
+	background-color:rgb(234, 234, 234);
+}
+#search QPushButton{
+	padding:5px 5px;
+	border-radius:20px;
+	background-color:rgb(234, 234, 234);
+
+}
+#search QPushButton:pressed{
+	padding-left:10px;
+}
+#search QLineEdit{
+	border:none;
+background-color:rgb(234, 234, 234);
+}</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_2">
+         <property name="spacing">
+          <number>6</number>
+         </property>
+         <property name="leftMargin">
+          <number>15</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>5</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QPushButton" name="pushButton">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>../../Downloads/Search Icon PNG &amp; SVG Design For T-Shirts.png</normaloff>../../Downloads/Search Icon PNG &amp; SVG Design For T-Shirts.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>20</width>
+             <height>20</height>
+            </size>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="search_id">
+           <property name="minimumSize">
+            <size>
+             <width>300</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="placeholderText">
+            <string>Search ID...</string>
+           </property>
+           <property name="clearButtonEnabled">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QWidget" name="widget_15" native="true">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>10</y>
+       <width>1601</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);</string>
+     </property>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>1530</x>
+        <y>0</y>
+        <width>60</width>
+        <height>60</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>60</width>
+        <height>60</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../../Downloads/Default avatar profile icon of social media user.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="yay" native="true">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>-10</y>
+       <width>241</width>
+       <height>791</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+#yay QPushButton{
+	background-color:red;
+	color:white;
+ }
+
+#yay{
+	background-color: rgb(25, 73, 85);
+box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}</string>
+     </property>
+     <widget class="QWidget" name="widget_3" native="true">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>170</y>
+        <width>120</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(25, 73, 85);
+border-radius:50%;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>20</y>
+        <width>231</width>
+        <height>181</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>5</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../../Downloads/1.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QWidget" name="widget_6" native="true">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>680</y>
+        <width>120</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(25, 73, 85);
+border-radius:50%;</string>
+      </property>
+      <widget class="QPushButton" name="pushButton_14">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>50</y>
+         <width>111</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Segoe UI</family>
+         <pointsize>10</pointsize>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(25, 73, 85);
+font: 10pt &quot;Segoe UI&quot;;
+color:white;</string>
+       </property>
+       <property name="text">
+        <string>Sign Out</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../Downloads/images (3).png</normaloff>../../Downloads/images (3).png</iconset>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QPushButton" name="button1">
+      <property name="geometry">
+       <rect>
+        <x>32</x>
+        <y>222</y>
+        <width>72</width>
+        <height>36</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">	QPushButton{
+background-color: rgb(25, 73, 85);
+border:none;}
+/*QPushButton:pressed {
+    background-color: white; /* Changes to white when pressed */
+   /* color: black;   */         /* Text changes to black */
+/*}*/
+
+QPushButton:checked {
+    background-color: white; /* Stays white when checked */
+    color: black;            /* Text remains black */
+    font-weight: bold;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Home</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="button2">
+      <property name="geometry">
+       <rect>
+        <x>32</x>
+        <y>295</y>
+        <width>70</width>
+        <height>36</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">	QPushButton{
+background-color: rgb(25, 73, 85);
+border:none;}</string>
+      </property>
+      <property name="text">
+       <string>Room</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="button3">
+      <property name="geometry">
+       <rect>
+        <x>32</x>
+        <y>368</y>
+        <width>137</width>
+        <height>36</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">	QPushButton{
+background-color: rgb(25, 73, 85);
+border:none;}</string>
+      </property>
+      <property name="text">
+       <string>Reservation</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="button5">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>590</y>
+        <width>151</width>
+        <height>36</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">	QPushButton{
+background-color: rgb(25, 73, 85);
+border:none;}</string>
+      </property>
+      <property name="text">
+       <string>Financial</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="button4">
+      <property name="geometry">
+       <rect>
+        <x>32</x>
+        <y>441</y>
+        <width>81</width>
+        <height>36</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">	QPushButton{
+background-color: rgb(25, 73, 85);
+border:none;}</string>
+      </property>
+      <property name="text">
+       <string>Staff</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="button6">
+      <property name="geometry">
+       <rect>
+        <x>32</x>
+        <y>660</y>
+        <width>111</width>
+        <height>36</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">	QPushButton{
+background-color: rgb(25, 73, 85);
+border:none;}</string>
+      </property>
+      <property name="text">
+       <string>Inventory</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="start_listening_5">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>510</y>
+        <width>211</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Segoe UI</family>
+        <pointsize>20</pointsize>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: white;
+	border-radius:10px;
+font: 700 20pt &quot;Segoe UI&quot;;
+color:black;
+margen-left:20px;</string>
+      </property>
+      <property name="text">
+       <string>Service</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QStackedWidget" name="stackedWidget">
+     <property name="geometry">
+      <rect>
+       <x>400</x>
+       <y>80</y>
+       <width>1241</width>
+       <height>751</height>
+      </rect>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="page">
+      <widget class="QLineEdit" name="lineEdit_ID">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>40</y>
+         <width>201</width>
+         <height>51</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_Room">
+       <property name="geometry">
+        <rect>
+         <x>270</x>
+         <y>40</y>
+         <width>201</width>
+         <height>51</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_Type">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>120</y>
+         <width>201</width>
+         <height>51</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_13">
+       <property name="geometry">
+        <rect>
+         <x>270</x>
+         <y>100</y>
+         <width>63</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Price</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_Price">
+       <property name="geometry">
+        <rect>
+         <x>270</x>
+         <y>120</y>
+         <width>201</width>
+         <height>51</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_14">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>180</y>
+         <width>63</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Date</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_15">
+       <property name="geometry">
+        <rect>
+         <x>270</x>
+         <y>20</y>
+         <width>63</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Room</string>
+       </property>
+      </widget>
+      <widget class="QDateTimeEdit" name="dateTimeEdit">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>220</y>
+         <width>121</width>
+         <height>41</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_16">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>20</y>
+         <width>63</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>ID</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_17">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>100</y>
+         <width>63</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Type</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pb1">
+       <property name="geometry">
+        <rect>
+         <x>190</x>
+         <y>190</y>
+         <width>81</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Approved</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pb3">
+       <property name="geometry">
+        <rect>
+         <x>290</x>
+         <y>190</y>
+         <width>91</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Delete</string>
+       </property>
+      </widget>
+      <widget class="QTableView" name="tableView">
+       <property name="geometry">
+        <rect>
+         <x>490</x>
+         <y>60</y>
+         <width>711</width>
+         <height>231</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pb2">
+       <property name="geometry">
+        <rect>
+         <x>400</x>
+         <y>190</y>
+         <width>81</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Edit</string>
+       </property>
+      </widget>
+      <widget class="QGraphicsView" name="graphicsView">
+       <property name="geometry">
+        <rect>
+         <x>620</x>
+         <y>310</y>
+         <width>581</width>
+         <height>231</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="searchButton">
+       <property name="geometry">
+        <rect>
+         <x>880</x>
+         <y>0</y>
+         <width>131</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Rechercher</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_Stats">
+       <property name="geometry">
+        <rect>
+         <x>420</x>
+         <y>390</y>
+         <width>201</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Statistique</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_search">
+       <property name="geometry">
+        <rect>
+         <x>670</x>
+         <y>0</y>
+         <width>201</width>
+         <height>51</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_Export">
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>390</y>
+         <width>201</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Export</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_Convert">
+       <property name="geometry">
+        <rect>
+         <x>340</x>
+         <y>330</y>
+         <width>201</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Convert</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_ExchangeRate">
+       <property name="geometry">
+        <rect>
+         <x>-1000</x>
+         <y>280</y>
+         <width>113</width>
+         <height>24</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_ConvertedPrice">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>250</y>
+         <width>241</width>
+         <height>121</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_T">
+       <property name="geometry">
+        <rect>
+         <x>1020</x>
+         <y>0</y>
+         <width>81</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Tri</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="page_2"/>
+    </widget>
+    <zorder>widget_15</zorder>
+    <zorder>widget_7</zorder>
+    <zorder>yay</zorder>
+    <zorder>stackedWidget</zorder>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1481</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>icons/delete.png</file>
+        <file>icons/update.png</file>
+        <file>icons/loss_icon.ico</file>
+        <file>icons/add.png</file>
+    </qresource>
+</RCC>
